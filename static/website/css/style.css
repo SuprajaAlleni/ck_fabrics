@@ -1,0 +1,552 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding-top: 94px;
+  margin: 0;
+	background-image:url(../img/bgpattarn1.png);
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.container2{
+  width: 90%;
+  margin:auto;
+  overflow: hidden;
+}
+
+
+#top_logo{
+  height: 25%;
+  width: 25%;
+}
+
+
+header nav{
+  float: right;
+  background-color: #3a7ba1;
+  border-radius: 5px;
+}
+
+
+header #icon:hover{
+  color:#FF8C00;
+  font-weight: bold;
+}
+
+header #drop_icon:hover{
+  color: #C0C0C0;
+  font-weight: bold;
+}
+
+.navbar-collapse > .navbar-nav > li > a:hover,.navbar-collapse > .navbar-nav > li > a:focus{background-color: black; color: white; transition: all ease 0.5s;}
+
+.dropdown > .dropdown-menu > li > a:hover, .dropdown .dropdown-menu > li > a:focus {background-color: #44a6c6; color: #FFFFFF; transition: all ease 0.5s;}
+
+#showcase2 a{
+  color: black;
+  line-height: 3.5;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#showcase2 h4{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color:#FFFF66;
+}
+
+#showcase2 .highlight a:hover{
+  color: #191970;
+  font-weight: bold;
+}
+
+
+.dropdown-menu {
+  visibility: hidden;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: all ease 0.5s;
+  opacity: 0;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 30%;
+}
+
+footer .left{
+  width: 30%;
+}
+
+footer .right{
+  width: 60%;
+}
+
+#showcase2 .left{
+  width:28%;
+}
+
+#showcase2 .right{
+    width: 72%;
+}
+
+
+footer{
+  padding-bottom: 0px;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+footer a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#bottom_logo{
+  height: 40%;
+  width: 40%;
+}
+
+#phone{
+  height: 3.2%;
+  width: 3.2%;
+  border-radius: 100%;
+}
+
+footer .left li{
+  display: inline;
+  padding: 0 2px 0 2px;
+}
+
+#mail{
+  height: 3.8%;
+  width: 3.8%;
+  border-radius: 100%;
+}
+
+footer a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.headings{
+  border-bottom: #0e635e 2px solid;
+  font-style: italic;
+}
+
+#main2 h3{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#main,#boxes h3,h1{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#boxes h3{
+  padding-top: 110px;
+}
+
+#nonwoven4{
+  height: 27%;
+  width: 27%;
+  margin-left: 70px;
+  float:right;
+}
+
+#nonwoven6{
+  height: 23%;
+  width: 23%;
+  margin-left: 70px;
+  float:right;
+}
+
+#table1{
+  width: 50%;
+  height: 50%;
+  padding-top: 10px;
+  object-fit: contain;
+}
+
+#packaging2{
+  height: 20%;
+  width: 20%;
+  border-radius: 25%;
+  margin: 2% 1% 3% 1%;
+  float: right;
+}
+
+#packaging3{
+  height: 28%;
+  width: 28%;
+  border-radius: 25%;
+  margin: 2% 1% 3% 1%;
+  float: right;
+}
+
+#agriculture1{
+  height: 30%;
+  width: 30%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 1%;
+  float: right;
+}
+
+#agriculture2{
+  height: 25%;
+  width: 25%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 3%;
+  float: right;
+}
+
+#medical6{
+  height: 25%;
+  width: 25%;
+  border-radius: 25%;
+  margin: 0% 1% 3% 5%;
+  float: right;
+}
+
+#medical7{
+  height: 27%;
+  width: 27%;
+  border-radius: 25%;
+  margin: 2% 5% 5% 15%;
+  float: right;
+}
+
+#meltblown1{
+  height: 36%;
+  width: 36%;
+  border-radius: 25%;
+  margin: 2% 5% 5% 15%;
+  float: right;
+}
+
+#healthcare1{
+  height: 28%;
+  width: 28%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 1%;
+  float: right;
+}
+
+#healthcare6{
+  height: 25%;
+  width: 25%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 3%;
+  float: right;
+}
+
+#healthcare2{
+  height: 24%;
+  width: 24%;
+  border-radius: 25%;
+  margin: 2% 1% 3% 1%;
+  float: right;
+}
+
+#healthcare9{
+  height: 27%;
+  width: 27%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 3%;
+  float: right;
+}
+
+#mattress2{
+  height: 30%;
+  width: 30%;
+  border-radius: 25%;
+  margin: 2% 1% 3% 1%;
+  float: right;
+}
+
+#mattress5{
+  height: 24%;
+  width: 24%;
+  border-radius: 25%;
+  margin: 2% 1% 5% 3%;
+  float: right;
+}
+
+.container1{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#main2 .container3{
+  border: white 5px solid;
+}
+
+#main1 h1{
+  border-bottom: grey 2px solid;
+  font-style: italic;
+}
+
+#main1 img{
+  height: 100%;
+  width: 100%
+}
+
+.dark{
+  font-weight: bolder;
+}
+
+#showcase1{
+  min-height: 200px;
+  background: url('../img/non-woven9.png') no-repeat ;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutpic{
+  height: 90%;
+  width: 90%;
+}
+
+
+.headingfonts{
+	font-family: 'Basic', sans-serif;
+}
+
+.bg_white{
+	background-color:#FFF;
+}
+
+.padding30{
+	padding:25px;
+}
+
+.color_red{
+	color:#ae1c28;
+}
+
+.container3{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#green1{
+  height: 13.3%;
+  width: 13.3%;
+  padding: 2%;
+  border-radius: 25px;
+}
+
+#green2{
+  height: 15%;
+  width: 15%;
+  padding: 2%;
+  border-radius: 25px;
+}
+#green3{
+  height: 13.3%;
+  width: 13.3%;
+  padding: 2%;
+  border-radius: 25px;
+}
+
+#meltblown3{
+  width:26%;
+  height:26%;
+  float:right;
+}
+
+#meltblown2{
+  width:24%;
+  height:24%;
+  float:right;
+}
+
+#meltblown4{
+  width:32%;
+  height:32%;
+}
+
+#laminated4{
+  width:28%;
+  height:28%;
+  float:right;
+}
+
+#laminated5{
+  width:23%;
+  height:23%;
+  float:right;
+}
+
+#laminated3{
+  padding-top: 50px;
+  width:55%;
+  height:55%;
+}
+
+#non-woven7{
+  width:38%;
+  height:38%;
+  float:right;
+}
+
+#non-woven11{
+  width:36%;
+  height:36%;
+  float:right;
+}
+
+#non-woven4{
+  width:36%;
+  height:36%;
+}
+
+@media(max-width: 767px){
+  header nav,
+  header nav li{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h3{
+    margin-top: 40px;
+  }
+  #boxes .column {
+    float: none;
+    text-align: center;
+    width: 100%;
+
+  }
+  footer .column {
+    float: left;
+    text-align: ;
+    width: 100%;
+  }
+  #showcase2 .column{
+    width: 100%;
+  }
+
+  #showcase2 .right  h4{
+    font-size: 18px;
+  }
+
+  #showcase2 #meltblown3,#meltblown2,#meltblown4{
+    float:none;
+    width: 50%;
+    height: 50%;
+    margin-left: 15px;
+    padding-bottom: 13px;
+  }
+  #showcase2 #laminated4{
+    float:none;
+    width: 55%;
+    height: 55%;
+    margin-left: 15px;
+    padding-bottom: 13px;
+  }
+  #showcase2 #laminated5{
+    float:none;
+    width: 50%;
+    height: 50%;
+    margin-left: 15px;
+    padding-bottom: 13px;
+  }
+  #showcase2 #laminated3{
+    float:none;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+  }
+  #showcase2 #non-woven7,#non-woven11{
+    float:none;
+    width: 62%;
+    height: 62%;
+    margin-left: 15px;
+    padding-bottom: 13px;
+  }
+  #showcase2 #non-woven4{
+    float:none;
+    width: 60%;
+    height: 60%;
+  }
+  #main2 #medical7,#meltblown1{
+    float:none;
+    width: 60%;
+    height: 60%;
+    align-content: center;
+    padding-bottom: 5px;
+  }
+  #main2 #meltblown1{
+    float:none;
+    width: 65%;
+    height: 65%;
+    padding-bottom: 5px;
+  }
+  #main2 #packaging3,#medical6,#healthcare9{
+    float:none;
+    width: 52%;
+    height: 52%;
+    align-content: center;
+    padding-bottom: 5px;
+  }
+  #main2 #packaging2,#healthcare2,#mattress5{
+    float:none;
+    width: 40%;
+    height: 40%;
+    padding-bottom: 5px;
+  }
+  #main2 #mattress2,#agriculture1,#agriculture2,#healthcare1,#healthcare6{
+    float:none;
+    width: 45%;
+    height: 45%;
+    padding-bottom: 5px;
+  }
+  #main #table1{
+    height: 100%;
+    width: 100%;
+  }
+  #boxes #nonwoven4,#nonwoven6{
+    float:none;
+    width: 65%;
+    height: 65%;
+    margin-left: 50px;
+    margin-bottom: 17px;
+  }
+  #boxes h3{
+    padding-top: 10px;
+  }
+  #green1,#green2,#green3{
+    width: 29%;
+    height: 29%;
+  }
+  #showcase1 h2{
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
